@@ -370,7 +370,7 @@ Output = A * B
 **Function:** The output is FALSE (0) only if both inputs are TRUE (1). Otherwise, the output is TRUE (1). It is the inverse of the AND gate.  
 
 **Symbol:**
-![NAND GATE](
+![NAND GATE](https://github.com/16-supritha/Digital_Electronics_Internship/blob/97908bcd529cb80b9ac613d8dd354ce6bad034ac/1280px-Nand-gate-en.svg.png)
 
 
  
