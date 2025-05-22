@@ -296,7 +296,7 @@ The AND gate outputs HIGH (1) only when all its inputs are HIGH. It performs a l
 **Symbol:**
 
 
-![AND Gate](https://github.com/16-supritha/Digital-_Electronics_Internship/blob/b603f1f72208815c54bad21a5cb0b3010dff0d65/and%20gate.png)
+![Alt text for the gate image](images/gate_image.png)
 
 
 **Boolean Function:**
