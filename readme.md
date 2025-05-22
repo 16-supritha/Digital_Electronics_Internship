@@ -390,7 +390,7 @@ Output = A * B
 
 **Symbol:**
 
-![NOT GATE](
+![NOT GATE](https://github.com/16-supritha/Digital_Electronics_Internship/blob/b4eb3036b6893aa215ab404a1773c95645748c36/Eaazs.png)
 
   
 **Truth Table:**
