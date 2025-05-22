@@ -408,7 +408,7 @@ Output = A * B
 **Function:** The output is TRUE (1) if the inputs are **the same**. The output is FALSE (0) if the inputs are different. It is the inverse of the XOR gate. 
 **Symbol:**
 
-![XNOR GATE](
+![XNOR GATE](https://github.com/16-supritha/Digital_Electronics_Internship/blob/d51eadfd5e5d07c08aefb0d9bd49b8cc67bc1f21/Logic-gate-xnor-us.png)
 
  
 **Truth Table:**
