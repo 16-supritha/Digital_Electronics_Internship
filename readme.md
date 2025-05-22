@@ -282,8 +282,8 @@ F = 1111
 - Number systems allow us to **store, process, and communicate** data efficiently in digital circuits.
 - **Octal and Hexadecimal** make it easier for humans to read and write large binary numbers.
 - Using number systems helps in **designing hardware** and **writing software** for digital systems.
-- 
-- # Logic Gates 
+ 
+ # Logic Gates 
 
 
 ---
@@ -296,7 +296,7 @@ The AND gate outputs HIGH (1) only when all its inputs are HIGH. It performs a l
 **Symbol:**
 
 ![AND GATE](https://github.com/16-supritha/Digital_Electronics_Internship/blob/c41067a7a1ebaf9435de0413a5973ff03d7fc40d/and%20gate.png)
-![Alt text for the gate image](images/gate_image.png)
+
 
 
 **Boolean Function:**
