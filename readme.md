@@ -350,6 +350,11 @@ Output = A * B
 ## 4. XOR Gate (Exclusive OR)  
 **Function:** The output is TRUE (1) if the inputs are **different**. The output is FALSE (0) if the inputs are the same.  
 
+**Symbol:**
+
+
+![XOR GATE](https://github.com/16-supritha/Digital_Electronics_Internship/blob/5b126d9ba7a2eb0ed8ae24e09a3b4826f879e2b2/Jmxzy.jpg)
+
 **Truth Table:**
 
 | A | B | XOR |
@@ -363,6 +368,11 @@ Output = A * B
 
 ## 5. NAND Gate (NOT AND)  
 **Function:** The output is FALSE (0) only if both inputs are TRUE (1). Otherwise, the output is TRUE (1). It is the inverse of the AND gate.  
+
+**Symbol:**
+![NAND GATE](
+
+
  
 **Truth Table:**
 
@@ -377,6 +387,11 @@ Output = A * B
 
 ## 6. NOR Gate (NOT OR)  
 **Function:** The output is TRUE (1) only if **both** inputs are FALSE (0). Otherwise, the output is FALSE (0). It is the inverse of the OR gate.  
+
+**Symbol:**
+
+![NOT GATE](
+
   
 **Truth Table:**
 
@@ -390,7 +405,11 @@ Output = A * B
 ---
 
 ## 7. XNOR Gate (Exclusive NOR)  
-**Function:** The output is TRUE (1) if the inputs are **the same**. The output is FALSE (0) if the inputs are different. It is the inverse of the XOR gate.  
+**Function:** The output is TRUE (1) if the inputs are **the same**. The output is FALSE (0) if the inputs are different. It is the inverse of the XOR gate. 
+**Symbol:**
+
+![XNOR GATE](
+
  
 **Truth Table:**
 
