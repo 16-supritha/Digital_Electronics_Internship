@@ -333,7 +333,10 @@ Output = A * B
 ---
 
 ## 3. NOT Gate (Inverter)  
-**Function:** The output is the inverse of the input. If the input is TRUE (1), output is FALSE (0), and vice versa.  
+**Function:** The output is the inverse of the input. If the input is TRUE (1), output is FALSE (0), and vice versa.
+
+**Symbol:**
+![NOT GATE](https://github.com/16-supritha/Digital_Electronics_Internship/blob/e701caeb201c96f3b3fb8b66ec95545766695da1/not%20gate.png)
 
 **Truth Table:**
 
