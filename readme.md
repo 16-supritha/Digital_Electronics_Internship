@@ -466,3 +466,7 @@ This table shows how basic logic gates (using TTL ICs) are used in real-world di
 | NOR        | 7402      | Memory Cell Reset Circuits | Resets system when all inputs are low.                 |
 | XOR        | 7486      | Parity Generators/Checkers | Checks for even or odd parity in data transmission.    |
 | XNOR       | 74266     | Digital Comparators        | Compares binary numbers bit by bit.                    |
+
+
+
+![not gate](https://github.com/user-attachments/assets/7fb4b7ab-97cd-4b47-bd8a-62b947cc04f5)
