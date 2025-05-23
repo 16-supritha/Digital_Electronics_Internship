@@ -537,7 +537,7 @@ It performs specific functions such as logic operations, amplification, or memor
  
  ### 🔸 NOT Gate using IC 7404  
  
- 👉 [Open NOT GATE in Tinkercad](
+  [Open NOT GATE in Tinkercad](
  ## Pin Description
 
 | Pin No. | Pin Label | Direction | Function                        |
