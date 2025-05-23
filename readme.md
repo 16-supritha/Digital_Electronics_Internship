@@ -47,7 +47,7 @@ Digital electronics play a crucial role in various industries and applications:
 
 ---
 
-## Logic Levels
+## LOGIC LEVELS
 
 Logic levels refer to voltage ranges used to represent digital values:
 
@@ -206,7 +206,7 @@ E -> = (15×16^0)
 **Steps:**
 1. Convert each hex digit to 4-bit binary.
 
-**Example:**   `2F`
+**Example:**   2F
 2 = (2×16^1)
 F = (15×16^0)
 = 32 + 15
@@ -319,6 +319,8 @@ Output = A * B
 **Function:** The output is TRUE (1) if **at least one** input is TRUE (1). The output is FALSE (0) only if both inputs are FALSE (0).  
 
 **Symbol:**
+
+
 ![or gate](https://github.com/user-attachments/assets/8acd2c27-f26b-4537-b789-4adba20d26b7)
 
 **Truth Table:**
@@ -336,6 +338,8 @@ Output = A * B
 **Function:** The output is the inverse of the input. If the input is TRUE (1), output is FALSE (0), and vice versa.
 
 **Symbol:**
+
+
 ![not gate](https://github.com/user-attachments/assets/4bcdbf38-3e0a-484b-a8b0-c2167dc52dc5)
 
 
@@ -352,6 +356,8 @@ Output = A * B
 **Function:** The output is TRUE (1) if the inputs are **different**. The output is FALSE (0) if the inputs are the same.  
 
 **Symbol:**
+
+
 ![exor gate](https://github.com/user-attachments/assets/27a5e193-affe-4ca7-adc5-3a5b62bd7b77)
 
 
@@ -370,6 +376,8 @@ Output = A * B
 **Function:** The output is FALSE (0) only if both inputs are TRUE (1). Otherwise, the output is TRUE (1). It is the inverse of the AND gate.  
 
 **Symbol:**
+
+
 ![nand gate](https://github.com/user-attachments/assets/82f95ac1-8af3-4bdf-881f-89d3e1e9a326)
 
 
@@ -430,10 +438,7 @@ An **Integrated Circuit (IC)** is a small chip that contains many electronic com
 It performs specific functions such as logic operations, amplification, or memory storage in compact electronic systems.
 
 
-# 🔌 Logic Gates and Their IC Numbers (TTL Series)
-
-This document provides a reference table of basic logic gates, their standard IC numbers, descriptions, the number of gates inside each IC, and total pin count.
-
+# 🔌 Logic Gates and Their IC Numbers 
 ---
 
 ## 📋 Logic Gate IC Reference Table
@@ -460,8 +465,6 @@ This document provides a reference table of basic logic gates, their standard IC
 ---
 
 # 🧩 Applications of ICs with Logic Gates
-
-This table shows how basic logic gates (using TTL ICs) are used in real-world digital circuits and systems.
 
 | Logic Gate | IC Number | Application                | Description of Use                                     |
 |------------|-----------|----------------------------|--------------------------------------------------------|
