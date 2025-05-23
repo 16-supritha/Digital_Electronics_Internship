@@ -474,10 +474,203 @@ This table shows how basic logic gates (using TTL ICs) are used in real-world di
 | XNOR       | 74266     | Digital Comparators        | Compares binary numbers bit by bit.                    |
 
 # 1.IC 7408 – Quad 2-Input AND Gate
-![7408 and pin diagram](https://github.com/user-attachments/assets/46e792f0-858e-4bfd-85e6-6ed5101ea4e6)
-
+![7408 and pin diagram](https://github.com/user-attachments/assets/46e792f0-858e-4bfd-85e6-6ed5101ea4e6)     ![pin 7408](https://github.com/user-attachments/assets/5f0363d4-d4ab-473d-ad98-0c13ccec1872)
 
 ![and gate ic](https://github.com/user-attachments/assets/bee93829-bf61-466d-9e49-960943e861df)
+
+👉 [Open  AND in Tinkercad](https://www.tinkercad.com/things/88w3ni0Cg88-and-gate-ic-7408)
+
+## Pin Description
+
+| Pin No. | Pin Label | Direction | Function                       |
+|---------|-----------|-----------|--------------------------------|
+| 1       | A1        | Input     | 1st input of AND gate 1        |
+| 2       | B1        | Input     | 2nd input of AND gate 1        |
+| 3       | Y1        | Output    | Output of AND gate 1           |
+| 4       | A2        | Input     | 1st input of AND gate 2        |
+| 5       | B2        | Input     | 2nd input of AND gate 2        |
+| 6       | Y2        | Output    | Output of AND gate 2           |
+| 7       | GND       | Power     | Ground (0V)                    |
+| 8       | Y3        | Output    | Output of AND gate 3           |
+| 9       | A3        | Input     | 1st input of AND gate 3        |
+| 10      | B3        | Input     | 2nd input of AND gate 3        |
+| 11      | Y4        | Output    | Output of AND gate 4           |
+| 12      | A4        | Input     | 1st input of AND gate 4        |
+| 13      | B4        | Input     | 2nd input of AND gate 4        |
+| 14      | Vcc       | Power     | Positive supply voltage (+5V)  |
+
+----------------------------------------------
+# 2. IC 7432 – Quad 2-Input OR Gate
+![7432](https://github.com/user-attachments/assets/bd5aaca8-44b9-4bbb-a374-310c04ab1604)    ![7432 pin diagram](https://github.com/user-attachments/assets/84bf016f-4897-48ba-b026-89adc1f24d7a)
+
+
+![or circuit](https://github.com/user-attachments/assets/9e61463e-64db-4b42-9ceb-9e0c1bfe0f68)
+
+### 🔸 OR Gate using IC 7432
+👉 [Open OR Gate Circuit in Tinkercad](https://www.tinkercad.com/things/9nPagTCFV95-or-gate-ic-7432)
+## Pin Description
+
+| Pin No. | Pin Label | Direction | Function                       |
+|---------|-----------|-----------|--------------------------------|
+| 1       | A1        | Input     | 1st input of OR gate 1         |
+| 2       | B1        | Input     | 2nd input of OR gate 1         |
+| 3       | Y1        | Output    | Output of OR gate 1            |
+| 4       | A2        | Input     | 1st input of OR gate 2         |
+| 5       | B2        | Input     | 2nd input of OR gate 2         |
+| 6       | Y2        | Output    | Output of OR gate 2            |
+| 7       | GND       | Power     | Ground (0V)                    |
+| 8       | Y3        | Output    | Output of OR gate 3            |
+| 9       | A3        | Input     | 1st input of OR gate 3         |
+| 10      | B3        | Input     | 2nd input of OR gate 3         |
+| 11      | Y4        | Output    | Output of OR gate 4            |
+| 12      | A4        | Input     | 1st input of OR gate 4         |
+| 13      | B4        | Input     | 2nd input of OR gate 4         |
+| 14      | Vcc       | Power     | Positive supply voltage (+5V)  |
+----------------------------------------------
+# 3. IC 7404 – Hex Inverter (NOT Gate)
+ ![7404 ic pin](https://github.com/user-attachments/assets/798e2325-8b51-4304-9926-8cdaddfefe65)   ![7404](https://github.com/user-attachments/assets/a6aa0fe0-ebb3-4a49-bdc6-63b2190957dd)
+ 
+ ![7404 circuit](https://github.com/user-attachments/assets/aee8a5d2-fc78-402c-92f6-6bcc7a13293e)
+ 
+ ### 🔸 NOT Gate using IC 7404  
+ 
+ 👉 [Open NOT GATE in Tinkercad](
+ ## Pin Description
+
+| Pin No. | Pin Label | Direction | Function                        |
+|---------|-----------|-----------|---------------------------------|
+| 1       | A1        | Input     | Input of inverter 1             |
+| 2       | Y1        | Output    | Output of inverter 1            |
+| 3       | A2        | Input     | Input of inverter 2             |
+| 4       | Y2        | Output    | Output of inverter 2            |
+| 5       | A3        | Input     | Input of inverter 3             |
+| 6       | Y3        | Output    | Output of inverter 3            |
+| 7       | GND       | Power     | Ground (0V)                     |
+| 8       | Y4        | Output    | Output of inverter 4            |
+| 9       | A4        | Input     | Input of inverter 4             |
+| 10      | Y5        | Output    | Output of inverter 5            |
+| 11      | A5        | Input     | Input of inverter 5             |
+| 12      | Y6        | Output    | Output of inverter 6            |
+| 13      | A6        | Input     | Input of inverter 6             |
+| 14      | Vcc       | Power     | Positive supply voltage (+5V)   |
+
+----------------------------------------------------------------------
+# 4. IC 7400 – Quad 2-Input NAND Gate
+![7400 both](https://github.com/user-attachments/assets/06f1be00-a996-4d60-8134-d51e6d276105)
+
+![circuit](https://github.com/user-attachments/assets/fee9c3de-25bc-4523-b40d-0a1a06cc1537)
+
+### 🔸 NAND Gate using IC 7400  
+👉 [Open NAND GATE in Tinkercad](https://www.tinkercad.com/things/4oQlEQfwRKP-nand-gate-ic-7400)
+## Pin Description
+
+| Pin No. | Pin Label | Direction | Function                       |
+|---------|-----------|-----------|--------------------------------|
+| 1       | A1        | Input     | 1st input of NAND gate 1       |
+| 2       | B1        | Input     | 2nd input of NAND gate 1       |
+| 3       | Y1        | Output    | Output of NAND gate 1          |
+| 4       | A2        | Input     | 1st input of NAND gate 2       |
+| 5       | B2        | Input     | 2nd input of NAND gate 2       |
+| 6       | Y2        | Output    | Output of NAND gate 2          |
+| 7       | GND       | Power     | Ground (0V)                    |
+| 8       | Y3        | Output    | Output of NAND gate 3          |
+| 9       | A3        | Input     | 1st input of NAND gate 3       |
+| 10      | B3        | Input     | 2nd input of NAND gate 3       |
+| 11      | Y4        | Output    | Output of NAND gate 4          |
+| 12      | A4        | Input     | 1st input of NAND gate 4       |
+| 13      | B4        | Input     | 2nd input of NAND gate 4       |
+| 14      | Vcc       | Power     | Positive supply voltage (+5V)  |
+------------------------------------------------------------------------------
+  
+# 5. IC 7402 – Quad 2-Input NOR Gate
+![7402](https://github.com/user-attachments/assets/82951dd5-a65a-4141-8b04-b1125c242da3)
+
+![7402 circuit](https://github.com/user-attachments/assets/ec2c5349-45ab-4466-866f-97fe8ed34829)
+
+### 🔹 NOR Gate using IC 7402  
+👉 [Open in Tinkercad](https://www.tinkercad.com/things/6eAb1UnugPH-nor-gate-ic-7402)
+
+
+## Pin Description
+
+| Pin No. | Pin Label | Direction | Function                       |
+|---------|-----------|-----------|--------------------------------|
+| 1       | Y1        | Output    | Output of NOR gate 1           |
+| 2       | A1        | Input     | 1st input of NOR gate 1        |
+| 3       | B1        | Input     | 2nd input of NOR gate 1        |
+| 4       | Y2        | Output    | Output of NOR gate 2           |
+| 5       | A2        | Input     | 1st input of NOR gate 2        |
+| 6       | B2        | Input     | 2nd input of NOR gate 2        |
+| 7       | GND       | Power     | Ground (0V)                    |
+| 8       | A3        | Input     | 1st input of NOR gate 3        |
+| 9       | B3        | Input     | 2nd input of NOR gate 3        |
+| 10      | Y3        | Output    | Output of NOR gate 3           |
+| 11      | A4        | Input     | 1st input of NOR gate 4        |
+| 12      | B4        | Input     | 2nd input of NOR gate 4        |
+| 13      | Y4        | Output    | Output of NOR gate 4           |
+| 14      | Vcc       | Power     | Positive supply voltage (+5V)  |
+
+✅ Note: The pin order is slightly different in 7402 compared to 7400/7408/7432 — outputs come first in the pin sequence.
+--------------------------------------------------------------------------------
+# 6. IC 7486 – Quad 2-Input XOR Gate
+![7486 pin](https://github.com/user-attachments/assets/c3faa97d-cf61-481c-8902-0c987c936398)
+
+![XOR IC 7486](https://github.com/user-attachments/assets/ba25a292-ecce-4b62-a0bf-81f8f705b999)
+
+### 🔹 XOR Gate using IC 7486  
+👉 [Open in Tinkercad](https://www.tinkercad.com/things/2tIHfi7LytI-xor-ic-7486)
+
+
+## Pin Description
+
+| Pin No. | Pin Label | Direction | Function                       |
+|---------|-----------|-----------|--------------------------------|
+| 1       | A1        | Input     | 1st input of XOR gate 1        |
+| 2       | B1        | Input     | 2nd input of XOR gate 1        |
+| 3       | Y1        | Output    | Output of XOR gate 1           |
+| 4       | A2        | Input     | 1st input of XOR gate 2        |
+| 5       | B2        | Input     | 2nd input of XOR gate 2        |
+| 6       | Y2        | Output    | Output of XOR gate 2           |
+| 7       | GND       | Power     | Ground (0V)                    |
+| 8       | Y3        | Output    | Output of XOR gate 3           |
+| 9       | A3        | Input     | 1st input of XOR gate 3        |
+| 10      | B3        | Input     | 2nd input of XOR gate 3        |
+| 11      | Y4        | Output    | Output of XOR gate 4           |
+| 12      | A4        | Input     | 1st input of XOR gate 4        |
+| 13      | B4        | Input     | 2nd input of XOR gate 4        |
+| 14      | Vcc       | Power     | Positive supply voltage (+5V)  |
+--------------------------------------------------------
+
+# 7.  IC 74266 – Quad 2-Input XNOR Gate
+![74266](https://github.com/user-attachments/assets/4caf12ad-191d-415d-87c4-ba3946c3e7d0)
+
+![XNOR gate IC 74266](https://github.com/user-attachments/assets/7539347a-1be6-4f59-a054-fd67189b9c6c)
+
+ ### 🔹 XNOR Gate  
+👉 [Open in Tinkercad](https://www.tinkercad.com/things/7g94kDrrNwn-xnor-gate-ic-74266)
+
+## Pin Description
+
+| Pin No. | Pin Label | Direction | Function                              |
+|---------|-----------|-----------|---------------------------------------|
+| 1       | A1        | Input     | 1st input of XNOR gate 1              |
+| 2       | B1        | Input     | 2nd input of XNOR gate 1              |
+| 3       | Y1        | Output    | Output of XNOR gate 1 (open collector)|
+| 4       | A2        | Input     | 1st input of XNOR gate 2              |
+| 5       | B2        | Input     | 2nd input of XNOR gate 2              |
+| 6       | Y2        | Output    | Output of XNOR gate 2 (open collector)|
+| 7       | GND       | Power     | Ground (0V)                           |
+| 8       | Y3        | Output    | Output of XNOR gate 3 (open collector)|
+| 9       | A3        | Input     | 1st input of XNOR gate 3              |
+| 10      | B3        | Input     | 2nd input of XNOR gate 3              |
+| 11      | Y4        | Output    | Output of XNOR gate 4 (open collector)|
+| 12      | A4        | Input     | 1st input of XNOR gate 4              |
+| 13      | B4        | Input     | 2nd input of XNOR gate 4              |
+| 14      | Vcc       | Power     | Positive supply voltage (+5V)         |
+--------------------------------------------------------
+
+
+
 
 
 
