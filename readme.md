@@ -75,20 +75,21 @@ Logic levels refer to voltage ranges used to represent digital values:
 - **Digits**: 0, 1  
 - **Each position** = power of 2  
 
-Example:  
-1011 = (1×2^3) + (0×2^2) + (1×2^1) + (1×2^0) 
-= 8 + 0 + 2 + 1
+Example:  1011₂ 
+ = (1 × 2³) + (0 × 2²) + (1 × 2¹) + (1 × 2⁰)
+ = 8 + 0 + 2 + 1
+ = 11₁₀
 = **11 (Decimal)**
 
 ---
 
 ### Decimal (Base 10)
 - **Digits**: 0–9  
-- **Each position** = power of 10  
-
-Example:  
-253 = (2×10^2) + (5×10^1) + (3×10^0) 
-= 200 + 50 + 3 
+- **Each position** = power of 10
+- Example:  
+253₁₀ =  (2 × 10²) + (5 × 10¹) + (3 × 10⁰) 
+     = 200 + 50 + 3
+     = 253
 = **253 (Decimal)**
 
 ---
@@ -132,13 +133,9 @@ E -> = (15×16^0)
 
 **Example:**  
 1101
-
-= (1 × 2³)  
-+ (1 × 2²)  
-+ (0 × 2¹)  
-+ (1 × 2⁰)  
-= 8 + 4 + 0 + 1  
-= **13 (Decimal)**
+     = (1 × 2³)  + (1 × 2²) + (0 × 2¹)  + (1 × 2⁰)  
+     = 8 + 4 + 0 + 1  
+     = **13 (Decimal)**
 
 ---
 
@@ -184,8 +181,7 @@ E -> = (15×16^0)
 3. Add the results.
 
 **Example:** 1A  
-= (1 × 16¹)  
-+ (10 × 16⁰)  
+= (1 × 16¹)  + (10 × 16⁰)  
 = 16 + 10  
 = **26 (Decimal)**
 
@@ -210,12 +206,11 @@ E -> = (15×16^0)
 **Steps:**
 1. Convert each hex digit to 4-bit binary.
 
-**Example:** 2F  
-2 = 0010  
-F = 1111  
-
-**Binary:** 00101111
-
+**Example:**   `2F`
+2 = (2×16^1)
+F = (15×16^0)
+= 32 + 15
+= **47 (Decimal)**
 ---
 
 ### G. Decimal to Octal
