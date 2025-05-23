@@ -290,7 +290,8 @@ The AND gate outputs HIGH (1) only when all its inputs are HIGH. It performs a l
 
 **Symbol:**
 
-![AND GATE](https://github.com/16-supritha/Digital_Electronics_Internship/blob/c41067a7a1ebaf9435de0413a5973ff03d7fc40d/and%20gate.png)
+![and gate](https://github.com/user-attachments/assets/d807fc51-a1e3-4cd2-b872-26ac0104780a)
+
 
 
 
@@ -315,7 +316,11 @@ Output = A * B
 
 
 ## 2. OR Gate  
-**Function:** The output is TRUE (1) if **at least one** input is TRUE (1). The output is FALSE (0) only if both inputs are FALSE (0).    
+**Function:** The output is TRUE (1) if **at least one** input is TRUE (1). The output is FALSE (0) only if both inputs are FALSE (0).  
+
+**Symbol:**
+![or gate](https://github.com/user-attachments/assets/8acd2c27-f26b-4537-b789-4adba20d26b7)
+
 **Truth Table:**
 
 | A | B | OR  |
@@ -331,7 +336,8 @@ Output = A * B
 **Function:** The output is the inverse of the input. If the input is TRUE (1), output is FALSE (0), and vice versa.
 
 **Symbol:**
-![NOT GATE](https://github.com/16-supritha/Digital_Electronics_Internship/blob/e701caeb201c96f3b3fb8b66ec95545766695da1/not%20gate.png)
+![not gate](https://github.com/user-attachments/assets/4bcdbf38-3e0a-484b-a8b0-c2167dc52dc5)
+
 
 **Truth Table:**
 
@@ -346,9 +352,8 @@ Output = A * B
 **Function:** The output is TRUE (1) if the inputs are **different**. The output is FALSE (0) if the inputs are the same.  
 
 **Symbol:**
+![exor gate](https://github.com/user-attachments/assets/27a5e193-affe-4ca7-adc5-3a5b62bd7b77)
 
-
-![XOR GATE](https://github.com/16-supritha/Digital_Electronics_Internship/blob/5b126d9ba7a2eb0ed8ae24e09a3b4826f879e2b2/Jmxzy.jpg)
 
 **Truth Table:**
 
@@ -365,7 +370,7 @@ Output = A * B
 **Function:** The output is FALSE (0) only if both inputs are TRUE (1). Otherwise, the output is TRUE (1). It is the inverse of the AND gate.  
 
 **Symbol:**
-![NAND GATE](https://github.com/16-supritha/Digital_Electronics_Internship/blob/97908bcd529cb80b9ac613d8dd354ce6bad034ac/1280px-Nand-gate-en.svg.png)
+![nand gate](https://github.com/user-attachments/assets/82f95ac1-8af3-4bdf-881f-89d3e1e9a326)
 
 
  
@@ -385,7 +390,7 @@ Output = A * B
 
 **Symbol:**
 
-![NOT GATE](https://github.com/16-supritha/Digital_Electronics_Internship/blob/b4eb3036b6893aa215ab404a1773c95645748c36/Eaazs.png)
+![nor gate](https://github.com/user-attachments/assets/f5d9ed37-da60-4f2d-a1e1-1d0d149ccd48)
 
   
 **Truth Table:**
@@ -403,7 +408,8 @@ Output = A * B
 **Function:** The output is TRUE (1) if the inputs are **the same**. The output is FALSE (0) if the inputs are different. It is the inverse of the XOR gate. 
 **Symbol:**
 
-![XNOR GATE](https://github.com/16-supritha/Digital_Electronics_Internship/blob/d51eadfd5e5d07c08aefb0d9bd49b8cc67bc1f21/Logic-gate-xnor-us.png)
+![xnor gate](https://github.com/user-attachments/assets/98a3237d-8e56-4e42-89b4-2a08e5dd07d4)
+
 
  
 **Truth Table:**
@@ -467,6 +473,14 @@ This table shows how basic logic gates (using TTL ICs) are used in real-world di
 | XOR        | 7486      | Parity Generators/Checkers | Checks for even or odd parity in data transmission.    |
 | XNOR       | 74266     | Digital Comparators        | Compares binary numbers bit by bit.                    |
 
+# 1.IC 7408 – Quad 2-Input AND Gate
+![7408 and pin diagram](https://github.com/user-attachments/assets/46e792f0-858e-4bfd-85e6-6ed5101ea4e6)
 
 
-![not gate](https://github.com/user-attachments/assets/7fb4b7ab-97cd-4b47-bd8a-62b947cc04f5)
+![and gate ic](https://github.com/user-attachments/assets/bee93829-bf61-466d-9e49-960943e861df)
+
+
+
+
+
+
