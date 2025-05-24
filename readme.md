@@ -701,49 +701,49 @@ It performs specific functions such as logic operations, amplification, or memor
 👉 [View  AND GATE USING NAND Gate 7400  Project on Tinkercad](https://www.tinkercad.com/things/2ikxvqCHHor-and-with-nand-gate)
 
 -----------------------------------
-IMPLEMENTATION OF OR GATE  USING NAND GATE 7400
+# IMPLEMENTATION OF OR GATE  USING NAND GATE 7400
 
 
 
 
-Tinkercad Project Link:
+# Tinkercad Project Link:
 
 👉 [View  OR GATE USING NAND GATE 7400 Circuit on Tinkercad](https://www.tinkercad.com/things/2SFUaJOht4N-or-with-nand)
 
 -------------------------------------
-IMPLEMENTATION OF NOT GATE USING NAND GATE 7400
+# IMPLEMENTATION OF NOT GATE USING NAND GATE 7400
 
 
 
- Tinkercad Project Link :
+ # Tinkercad Project Link :
   
 👉 [View NOT GATE USING NAND 7400](https://www.tinkercad.com/things/2cgmEXES55h-not-with-nand)
 
 -----------------------------------------------
- IMPLEMENTATION OF AND GATE USING NOR GATE 7402
+#  IMPLEMENTATION OF AND GATE USING NOR GATE 7402
 
  ![ANDNOR](https://github.com/user-attachments/assets/ef5fbb56-c374-49c9-b924-0039c0ab4506)
 
 
-Tinkercad Project Link:
+# Tinkercad Project Link:
 
 👉[View AND GATE USING NOR 7402](https://www.tinkercad.com/things/ifEgXWxR8pf-and-using-nor)
  
  -------------------------------------
- IMPLEMENTATION OF OR GATE USING NOR GATE 7402
+#  IMPLEMENTATION OF OR GATE USING NOR GATE 7402
 
 
 
- Tinkercad Project Link:
+#  Tinkercad Project Link:
  
 👉[View OR GATE USING NOR 7402()
 --------------------------------------------
-IMPLEMENTATION OF NOT GATE USING NOR GATE 7402
+# IMPLEMENTATION OF NOT GATE USING NOR GATE 7402
 
 
 
 
-Tinkercad Project Link:
+# Tinkercad Project Link:
 
 👉 [View NOT GATE USING NOR GATE 7402](https://www.tinkercad.com/things/63mjcM1o9Tu-not-using-nor-gate)
 
