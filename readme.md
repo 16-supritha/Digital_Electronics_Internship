@@ -199,7 +199,7 @@ E -> = (15×16^0)
 **Steps:**
 1. Convert each hex digit to 4-bit binary.
 
-**Example:**   2F
+Example:    2F
 2 = (2×16^1)
 F = (15×16^0)
 = 32 + 15
