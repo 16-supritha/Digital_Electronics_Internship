@@ -15,9 +15,9 @@
 
 ## What is Digital Electronics?
 
-**Digital Electronics** is a field of electronics involving digital signals that use binary values (0 and 1) to represent information. It forms the basis of all modern computing devices, utilizing logic gates and circuits to perform operations.
+- Digital Electronics is a field of electronics involving digital signals that use binary values (0 and 1) to represent information. It forms the basis of all modern computing devices, utilizing logic gates and circuits to perform operations.
 
-Unlike analog electronics, where signals vary continuously, digital systems work with discrete voltage levels which makes them less susceptible to noise and easier to process.
+- Unlike analog electronics, where signals vary continuously, digital systems work with discrete voltage levels which makes them less susceptible to noise and easier to process.
 
 ---
 
@@ -75,8 +75,7 @@ Logic levels refer to voltage ranges used to represent digital values:
 - **Digits**: 0, 1  
 - **Each position** = power of 2  
 
-Example:  1011₂ 
- = (1 × 2³) + (0 × 2²) + (1 × 2¹) + (1 × 2⁰)
+Example:  1011₂  = (1 × 2³) + (0 × 2²) + (1 × 2¹) + (1 × 2⁰)
  = 8 + 0 + 2 + 1
  = 11₁₀
 = **11 (Decimal)**
@@ -86,11 +85,8 @@ Example:  1011₂
 ### Decimal (Base 10)
 - **Digits**: 0–9  
 - **Each position** = power of 10
-- Example:  
-253₁₀ =  (2 × 10²) + (5 × 10¹) + (3 × 10⁰) 
-     = 200 + 50 + 3
-     = 253
-= **253 (Decimal)**
+- Example:  253₁₀ =  (2 × 10²) + (5 × 10¹) + (3 × 10⁰) 
+     = 200 + 50 + 3 = 253 = **253 (Decimal)**
 
 ---
 
@@ -98,8 +94,7 @@ Example:  1011₂
 - **Digits**: 0–7  
 - **Each position** = power of 8  
 
-Example:  
-145 = (1×8^2) + (4×8^1) + (5×8^0) 
+Example:  145 = (1×8^2) + (4×8^1) + (5×8^0) 
 = 64 + 32 + 5 
 = **101 (Decimal)**
 
@@ -109,8 +104,7 @@ Example:
 - **Digits**: 0–9 and A–F  
 - **Each position** = power of 16  
 
-Example:  
-2F 
+Example:  2F 
 2 -> = (2×16^1) + 
 E -> = (15×16^0) 
 = 32 + 15 
@@ -131,8 +125,7 @@ E -> = (15×16^0)
 2. Multiply each digit by 2ⁿ (where n is the position from right, starting at 0).
 3. Add the results.
 
-**Example:**  
-1101
+**Example:**  1101
      = (1 × 2³)  + (1 × 2²) + (0 × 2¹)  + (1 × 2⁰)  
      = 8 + 4 + 0 + 1  
      = **13 (Decimal)**
