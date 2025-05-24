@@ -287,7 +287,11 @@ The AND gate outputs HIGH (1) only when all its inputs are HIGH. It performs a l
 
 **Symbol:**
 
+
+
+
 ![and gate](https://github.com/user-attachments/assets/d807fc51-a1e3-4cd2-b872-26ac0104780a)
+
 
 
 
@@ -318,6 +322,8 @@ Output = A * B
 **Symbol:**
 
 
+
+ 
 ![or gate](https://github.com/user-attachments/assets/8acd2c27-f26b-4537-b789-4adba20d26b7)
 
 **Truth Table:**
@@ -338,6 +344,9 @@ Output = A * B
 
 
 ![not gate](https://github.com/user-attachments/assets/4bcdbf38-3e0a-484b-a8b0-c2167dc52dc5)
+
+
+
 
 
 **Truth Table:**
