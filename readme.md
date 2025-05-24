@@ -483,7 +483,7 @@ It performs specific functions such as logic operations, amplification, or memor
 | XNOR       | 74266     | Digital Comparators        | Compares binary numbers bit by bit.                    |
 
 # 1.IC 7408 – Quad 2-Input AND Gate
-![7408 and pin diagram](https://github.com/user-attachments/assets/46e792f0-858e-4bfd-85e6-6ed5101ea4e6)     ![pin 7408](https://github.com/user-attachments/assets/5f0363d4-d4ab-473d-ad98-0c13ccec1872)
+![7408 and pin diagram](https://github.com/user-attachments/assets/46e792f0-858e-4bfd-85e6-6ed5101ea4e6)     
 
 ![and gate ic](https://github.com/user-attachments/assets/bee93829-bf61-466d-9e49-960943e861df)
 
@@ -510,7 +510,8 @@ It performs specific functions such as logic operations, amplification, or memor
 
 ----------------------------------------------
 # 2. IC 7432 – Quad 2-Input OR Gate
-![7432](https://github.com/user-attachments/assets/bd5aaca8-44b9-4bbb-a374-310c04ab1604)    ![7432 pin diagram](https://github.com/user-attachments/assets/84bf016f-4897-48ba-b026-89adc1f24d7a)
+![OR PIN CONFIGURation](https://github.com/user-attachments/assets/30d68f18-a459-4b4a-8ace-84dceb1fbd4a)
+
 
 
 ![or circuit](https://github.com/user-attachments/assets/9e61463e-64db-4b42-9ceb-9e0c1bfe0f68)
@@ -537,11 +538,14 @@ It performs specific functions such as logic operations, amplification, or memor
 | 14      | Vcc       | Power     | Positive supply voltage (+5V)  |
 ----------------------------------------------
 # 3. IC 7404 – Hex Inverter (NOT Gate)
- ![7404 ic pin](https://github.com/user-attachments/assets/798e2325-8b51-4304-9926-8cdaddfefe65)   ![7404](https://github.com/user-attachments/assets/a6aa0fe0-ebb3-4a49-bdc6-63b2190957dd)
  
  ![7404 circuit](https://github.com/user-attachments/assets/aee8a5d2-fc78-402c-92f6-6bcc7a13293e)
  
+ ![NOT GATE IC RESISE](https://github.com/user-attachments/assets/2a302768-ae95-43ca-8c58-5a7d3c7c139e)
+ 
  ### 🔸 NOT Gate using IC 7404  
+ 
+
  
   [Open NOT GATE in Tinkercad](
  ## Pin Description
@@ -565,7 +569,8 @@ It performs specific functions such as logic operations, amplification, or memor
 
 ----------------------------------------------------------------------
 # 4. IC 7400 – Quad 2-Input NAND Gate
-![7400 both](https://github.com/user-attachments/assets/06f1be00-a996-4d60-8134-d51e6d276105)
+![NAND GATE RESIZE](https://github.com/user-attachments/assets/cef89519-6658-4edc-8f5f-19aef6f36171)
+
 
 ![circuit](https://github.com/user-attachments/assets/fee9c3de-25bc-4523-b40d-0a1a06cc1537)
 
@@ -592,7 +597,8 @@ It performs specific functions such as logic operations, amplification, or memor
 ------------------------------------------------------------------------------
   
 # 5. IC 7402 – Quad 2-Input NOR Gate
-![7402](https://github.com/user-attachments/assets/82951dd5-a65a-4141-8b04-b1125c242da3)
+![NOR GATE](https://github.com/user-attachments/assets/6f8e1b07-cf9a-4234-9cb8-f6697662d857)
+
 
 ![7402 circuit](https://github.com/user-attachments/assets/ec2c5349-45ab-4466-866f-97fe8ed34829)
 
@@ -622,9 +628,11 @@ It performs specific functions such as logic operations, amplification, or memor
 ✅ Note: The pin order is slightly different in 7402 compared to 7400/7408/7432 — outputs come first in the pin sequence.
 --------------------------------------------------------------------------------
 # 6. IC 7486 – Quad 2-Input XOR Gate
-![7486 pin](https://github.com/user-attachments/assets/c3faa97d-cf61-481c-8902-0c987c936398)
+![XOR R](https://github.com/user-attachments/assets/af1c583c-2f12-455a-8cd7-aa9d664d464e)
 
-![XOR IC 7486](https://github.com/user-attachments/assets/ba25a292-ecce-4b62-a0bf-81f8f705b999)
+![L](https://github.com/user-attachments/assets/8059b15c-d2a5-43d3-865a-a204a217552a)
+
+
 
 ### 🔹 XOR Gate using IC 7486  
 👉 [Open in Tinkercad](https://www.tinkercad.com/things/2tIHfi7LytI-xor-ic-7486)
@@ -651,9 +659,10 @@ It performs specific functions such as logic operations, amplification, or memor
 --------------------------------------------------------
 
 # 7.  IC 74266 – Quad 2-Input XNOR Gate
-![74266](https://github.com/user-attachments/assets/4caf12ad-191d-415d-87c4-ba3946c3e7d0)
+![XOR PIN](https://github.com/user-attachments/assets/53af2a62-8ac8-4982-83f2-2f2a2540fb72)
+![L](https://github.com/user-attachments/assets/27e71e93-bd57-4098-a799-bda61478796d)
 
-![XNOR gate IC 74266](https://github.com/user-attachments/assets/7539347a-1be6-4f59-a054-fd67189b9c6c)
+
 
  ### 🔹 XNOR Gate  
 👉 [Open in Tinkercad](https://www.tinkercad.com/things/7g94kDrrNwn-xnor-gate-ic-74266)
