@@ -364,7 +364,7 @@ Output = A * B
 **Symbol:**
 
 
-![exor gate](https://github.com/user-attachments/assets/27a5e193-affe-4ca7-adc5-3a5b62bd7b77)
+![XOR GATE](https://github.com/user-attachments/assets/facc735d-d181-4f0d-834e-216d475d24a7)
 
 
 **Truth Table:**
@@ -444,10 +444,10 @@ An **Integrated Circuit (IC)** is a small chip that contains many electronic com
 It performs specific functions such as logic operations, amplification, or memory storage in compact electronic systems.
 
 
-# 🔌 Logic Gates and Their IC Numbers 
+#  Logic Gates and Their IC Numbers 
 ---
 
-## 📋 Logic Gate IC Reference Table
+## Logic Gate IC Reference Table
 
 | Logic Gate | IC Number | Description                         | Gates per IC | Pin Count |
 |------------|-----------|-------------------------------------|--------------|-----------|
@@ -461,7 +461,7 @@ It performs specific functions such as logic operations, amplification, or memor
 
 ---
 
-## 🧠 Notes
+##  Notes
 
 - **Quad** means the IC contains 4 identical gates.
 - **Hex** means 6 gates (as in NOT gates).
@@ -470,7 +470,7 @@ It performs specific functions such as logic operations, amplification, or memor
 
 ---
 
-# 🧩 Applications of ICs with Logic Gates
+#  Applications of ICs with Logic Gates
 
 | Logic Gate | IC Number | Application                | Description of Use                                     |
 |------------|-----------|----------------------------|--------------------------------------------------------|
