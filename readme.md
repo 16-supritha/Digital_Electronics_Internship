@@ -11,8 +11,9 @@
 - [Logic Gates](#Logic-Gates)
 - [Integrated Circuits](#Integrated-Circuits)
 - [Implementation of Logic Gatess](#Implementationof-LogicGates)
+-  [Implementation of half adder](#Implementationof-halfadder)
 - [Implementation of full adder](#Implementationof-fulladder)
-- 
+ 
 
 ---
 
@@ -752,6 +753,17 @@ It performs specific functions such as logic operations, amplification, or memor
 Tinkercad Project Link:
 
 👉 [View NOT GATE USING NOR GATE 7402](https://www.tinkercad.com/things/63mjcM1o9Tu-not-using-nor-gate)
+
+## IMPLEMENTATION OF HALF ADDER
+
+![C](https://github.com/user-attachments/assets/a73838fe-63a7-4a23-b1e7-42f53ec21b52)  ![TT](https://github.com/user-attachments/assets/c65cf513-2452-452d-991e-6febc1a0d699)
+
+![HALF](https://github.com/user-attachments/assets/a8464060-ddbc-4b29-a5fe-d2cd77c10db0)
+
+
+
+👉 [View HALF ADDER ](https://www.tinkercad.com/things/1tYgP0O8NUE-half-adder)
+
 
 ## IMPLEMENTATION OF FULL ADDER USING NAND GATES
 
