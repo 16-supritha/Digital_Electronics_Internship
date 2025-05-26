@@ -9,7 +9,10 @@
 - [Logic Levels](#logic-levels)
 - [Number system](#Number-system)
 - [Logic Gates](#Logic-Gates)
-- [Integrated Circuits](#Integrated-Circuits) 
+- [Integrated Circuits](#Integrated-Circuits)
+- [Implementation of Logic Gatess](#Implementationof-LogicGates)
+- [Implementation of full adder](#Implementationof-fulladder)
+- 
 
 ---
 
