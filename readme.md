@@ -741,6 +741,7 @@ It performs specific functions such as logic operations, amplification, or memor
 
 
   Tinkercad Project Link:
+  👉[View OR GATE USING NOR 7402](https://www.tinkercad.com/things/cleZgo1KQWd-or-with-nor)
 
 
 --------------------------------------------
