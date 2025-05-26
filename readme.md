@@ -57,7 +57,7 @@ Logic levels refer to voltage ranges used to represent digital values:
 - **Logic 0 (Low):** Typically 0V
 - **Logic 1 (High):** Typically 3.3V, 5V, or other depending on the logic family
 
-# Number Systems 
+## Number Systems 
 
 ---
 
@@ -278,7 +278,7 @@ E -> = (15×16^0)
 - **Octal and Hexadecimal** make it easier for humans to read and write large binary numbers.
 - Using number systems helps in **designing hardware** and **writing software** for digital systems.
  
- # Logic Gates 
+ ## Logic Gates 
 
 
 ---
@@ -628,12 +628,13 @@ It performs specific functions such as logic operations, amplification, or memor
 | 13      | Y4        | Output    | Output of NOR gate 4           |
 | 14      | Vcc       | Power     | Positive supply voltage (+5V)  |
 
-✅ Note: The pin order is slightly different in 7402 compared to 7400/7408/7432 — outputs come first in the pin sequence.
+
 --------------------------------------------------------------------------------
 # 6. IC 7486 – Quad 2-Input XOR Gate
 ![XOR R](https://github.com/user-attachments/assets/af1c583c-2f12-455a-8cd7-aa9d664d464e)
 
-![L](https://github.com/user-attachments/assets/8059b15c-d2a5-43d3-865a-a204a217552a)
+![xor](https://github.com/user-attachments/assets/ac4feecb-5770-41f6-99c4-246b80abfa93)
+
 
 
 
@@ -665,7 +666,7 @@ It performs specific functions such as logic operations, amplification, or memor
 ![XOR PIN](https://github.com/user-attachments/assets/53af2a62-8ac8-4982-83f2-2f2a2540fb72)
 
 
-![L](https://github.com/user-attachments/assets/27e71e93-bd57-4098-a799-bda61478796d)
+![xnor](https://github.com/user-attachments/assets/c369e96a-2427-4b55-84f5-26d49f510c28)
 
 
 
@@ -751,7 +752,11 @@ Tinkercad Project Link:
 
 👉 [View NOT GATE USING NOR GATE 7402](https://www.tinkercad.com/things/63mjcM1o9Tu-not-using-nor-gate)
 
-# IMPLEMENTATION OF FULL ADDER USING NAND GATES
+## IMPLEMENTATION OF FULL ADDER USING NAND GATES
+
+![download](https://github.com/user-attachments/assets/cce25d29-f0ca-4872-866d-94be0a18afca)   ![truthh](https://github.com/user-attachments/assets/9e0af7bf-192b-4041-a82d-ce45b2196c73)
+
+
 
 ![CHJ](https://github.com/user-attachments/assets/44d7cbaf-77fc-4298-a591-b7663943c68f)
 
