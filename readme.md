@@ -10,9 +10,9 @@
 - [Number system](#Number-system)
 - [Logic Gates](#Logic-Gates)
 - [Integrated Circuits](#Integrated-Circuits)
-- [Implementation of Logic Gatess](#Implementationof-LogicGates)
--  [Implementation of half adder](#Implementationof-halfadder)
-- [Implementation of full adder](#Implementationof-fulladder)
+- [Implementation of Logic Gatess](#Logic-Gates)
+- [Half adder](#Half-adder)
+- [Full adder](#Full-adder)
  
 
 ---
