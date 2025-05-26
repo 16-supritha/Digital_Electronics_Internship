@@ -736,16 +736,16 @@ It performs specific functions such as logic operations, amplification, or memor
 #  IMPLEMENTATION OF OR GATE USING NOR GATE 7402
 
 
+![fr](https://github.com/user-attachments/assets/df60b860-e837-4a31-8bc2-ea9535d76af7)
 
 
   Tinkercad Project Link:
- 
-👉[View OR GATE USING NOR 7402()
+
+
 --------------------------------------------
 # IMPLEMENTATION OF NOT GATE USING NOR GATE 7402
 
 ![MM](https://github.com/user-attachments/assets/46e4dcfe-b6e8-47f7-b27d-da257d2ea06f)
-
 
 Tinkercad Project Link:
 
