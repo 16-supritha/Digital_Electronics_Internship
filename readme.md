@@ -57,7 +57,7 @@ Logic levels refer to voltage ranges used to represent digital values:
 - **Logic 0 (Low):** Typically 0V
 - **Logic 1 (High):** Typically 3.3V, 5V, or other depending on the logic family
 
-## Number Systems 
+## NUMBER SYSTEMS
 
 ---
 
