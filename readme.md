@@ -754,14 +754,50 @@ It performs specific functions such as logic operations, amplification, or memor
 Tinkercad Project Link:
 
 👉 [View NOT GATE USING NOR GATE 7402](https://www.tinkercad.com/things/63mjcM1o9Tu-not-using-nor-gate)
+
 -------------------------------------
 
 ## IMPLEMENTATION OF HALF ADDER
 
+#Definition
+
+A **Half Adder** is a combinational circuit that performs addition of two binary digits. It has two outputs:
+
 ![C](https://github.com/user-attachments/assets/a73838fe-63a7-4a23-b1e7-42f53ec21b52)  ![TT](https://github.com/user-attachments/assets/c65cf513-2452-452d-991e-6febc1a0d699)
 
-![HALF](https://github.com/user-attachments/assets/a8464060-ddbc-4b29-a5fe-d2cd77c10db0)
 
+#  Pinout Table
+
+| S.No | Pin No (IC/Component)       | Connected To                                      |
+|------|-----------------------------|---------------------------------------------------|
+| 1    | 74HC00 (Left IC) Pin 14     | Vcc (+ve rail)                                    |
+| 2    | 74HC00 (Left IC) Pin 7      | GND (-ve rail)                                    |
+| 3    | 74HC00 (Right IC) Pin 14    | Vcc (+ve rail)                                    |
+| 4    | 74HC00 (Right IC) Pin 7     | GND (-ve rail)                                    |
+| 5    | DIP Switch Pin 1            | A input to 74HC00 Pin 1                           |
+| 6    | DIP Switch Pin 2            | B input to 74HC00 Pin 2                           |
+| 7    | A Input Line                | 74HC00 Pins 1, 5, 9 (varies for XOR structure)    |
+| 8    | B Input Line                | 74HC00 Pins 2, 6, 10                              |
+| 9    | 74HC00 (Left IC) Pin 3      | Internal XOR output line (to Right IC, SUM)       |
+| 10   | 74HC00 (Right IC) Pin 3     | Connected to Green LED (SUM output)               |
+| 11   | 74HC00 (Left IC) Pin 4      | Connected to Red LED (CARRY output)               |
+| 12   | Red LED Cathode             | GND via 220Ω resistor                             |
+| 13   | Green LED Cathode           | GND via 220Ω resistor                             |
+| 14   | Red LED Anode               | From NAND output (CARRY)                          |
+| 15   | Green LED Anode             | From NAND-XOR output (SUM)                        |
+| 16   | Power Supply (+)            | Breadboard positive rail                          |
+| 17   | Power Supply (–)            | Breadboard negative rail                          |
+
+---
+
+#  NAND Gate Implementation of Half Adder
+
+### **SUM = A ⊕ B = (A NAND (A NAND B)) NAND (B NAND (A NAND B))**
+
+### **CARRY = A · B = (A NAND B)' = A NAND B followed by NAND with itself**
+
+---
+![HALF](https://github.com/user-attachments/assets/a8464060-ddbc-4b29-a5fe-d2cd77c10db0)
 
 Tinkercad Project Link:
 👉 [View HALF ADDER ](https://www.tinkercad.com/things/1tYgP0O8NUE-half-adder)
@@ -769,12 +805,57 @@ Tinkercad Project Link:
 -------------------------------------
 ## IMPLEMENTATION OF FULL ADDER USING NAND GATES
 
+# Definition
+
+A **Full Adder** is a combinational circuit that performs the addition of three binary bits:  
+- A  
+- B  
+- Cin (Carry Input)
+
+It produces two outputs:
+- **SUM = A ⊕ B ⊕ Cin**
+- **CARRY = (A·B) + (Cin·(A⊕B))**
+
+---
+
 ![download](https://github.com/user-attachments/assets/cce25d29-f0ca-4872-866d-94be0a18afca)   ![truthh](https://github.com/user-attachments/assets/9e0af7bf-192b-4041-a82d-ce45b2196c73)
 
 
+#  Pinout Table
 
+| S.No | Pin No (IC/Component)       | Connected To                                      |
+|------|-----------------------------|---------------------------------------------------|
+| 1    | 74HC86 Pin 14 (Vcc)         | Breadboard +ve rail                               |
+| 2    | 74HC86 Pin 7 (GND)          | Breadboard –ve rail                               |
+| 3    | 74HC08 Pin 14 (Vcc)         | Breadboard +ve rail                               |
+| 4    | 74HC08 Pin 7 (GND)          | Breadboard –ve rail                               |
+| 5    | 74HC32 Pin 14 (Vcc)         | Breadboard +ve rail                               |
+| 6    | 74HC32 Pin 7 (GND)          | Breadboard –ve rail                               |
+| 7    | DIP Switch 1                | Input A                                           |
+| 8    | DIP Switch 2                | Input B                                           |
+| 9    | DIP Switch 3                | Input Cin                                         |
+| 10   | XOR Gate 1 Input (74HC86)   | A, B                                              |
+| 11   | XOR Gate 1 Output           | Connected to XOR Gate 2 and AND gate              |
+| 12   | XOR Gate 2 Input            | Cin and output of XOR 1                           |
+| 13   | XOR Gate 2 Output           | Connected to SUM LED                              |
+| 14   | AND Gate 1 Input (74HC08)   | A and B                                           |
+| 15   | AND Gate 2 Input (74HC08)   | Cin and (A⊕B)                                     |
+| 16   | OR Gate Input (74HC32)      | Output of both AND gates                          |
+| 17   | OR Gate Output              | Connected to CARRY LED                            |
+| 18   | SUM LED Cathode             | GND via resistor                                  |
+| 19   | CARRY LED Cathode           | GND via resistor                                  |
+| 20   | SUM LED Anode               | Output from XOR (SUM)                             |
+| 21   | CARRY LED Anode             | Output from OR gate                               |
+| 22   | Power Supply (+)            | Breadboard positive rail                          |
+| 23   | Power Supply (–)            | Breadboard negative rail                          |
+
+---
 ![CHJ](https://github.com/user-attachments/assets/44d7cbaf-77fc-4298-a591-b7663943c68f)
 
+# Output
+- **SUM** LED turns ON when A ⊕ B ⊕ Cin = 1
+- **CARRY** LED turns ON when output carry is 1
+  
  Tinkercad Project Link:
 
 👉 [View FULL ADDER USING NAND GATE ](https://www.tinkercad.com/things/lDWqEUBlfJB-ful-adder)
@@ -786,12 +867,8 @@ Tinkercad Project Link:
 
 A 2:1 multiplexer (also written as 2-to-1 MUX) is a combinational logic circuit that selects one of two input signals and forwards it to a single output line. The selection is controlled by a single select input (S).
 
+![mux](https://github.com/user-attachments/assets/492e0214-1d65-4a04-bcdf-af0b2a02cbc1)
 ![TT](https://github.com/user-attachments/assets/de95ca91-2fd7-41e7-bc18-1817c72bd742)
-
-
-
-![CC](https://github.com/user-attachments/assets/c287a3e4-a9b1-4622-a13d-d6f1156c3521)
-
 
 ## Pin-Out Table
 
@@ -816,7 +893,9 @@ A 2:1 multiplexer (also written as 2-to-1 MUX) is a combinational logic circuit 
 | 17   | All ICs Vcc Pins        | Connected to Breadboard Vcc (+ve)           |
 | 18   | Power Supply (+ve)      | Breadboard Red Rail                         |
 | 19   | Power Supply (-ve)      | Breadboard Black Rail                       |
+-------------
 
+![CC](https://github.com/user-attachments/assets/c287a3e4-a9b1-4622-a13d-d6f1156c3521)
 
  Tinkercad Project Link:
 👉 [View 2:1 MUX](https://www.tinkercad.com/things/fmHQ6zkMW7Y-mux)
