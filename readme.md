@@ -13,7 +13,7 @@
 - [Implementation of Logic Gatess](#Logic-Gates)
 - [Implementation of Half Adder](#Implementationof-Halfadder)
 - [Implementation of Full Adder](#Implementationof-FullAdder)
-- [Implementation of 2:1 MUX ](Implementationof-2:1mux)
+- [Implementation of 2:1 MUX ](#Implementationof-2:1mux)
  
 
 ---
@@ -818,7 +818,22 @@ It produces two outputs:
 
 ---
 
-![download](https://github.com/user-attachments/assets/cce25d29-f0ca-4872-866d-94be0a18afca)   ![truthh](https://github.com/user-attachments/assets/9e0af7bf-192b-4041-a82d-ce45b2196c73)
+![download](https://github.com/user-attachments/assets/cce25d29-f0ca-4872-866d-94be0a18afca)   
+
+# Truth Table
+
+| A | B | Cin | SUM | CARRY |
+|---|---|-----|-----|--------|
+| 0 | 0 |  0  |  0  |   0    |
+| 0 | 0 |  1  |  1  |   0    |
+| 0 | 1 |  0  |  1  |   0    |
+| 0 | 1 |  1  |  0  |   1    |
+| 1 | 0 |  0  |  1  |   0    |
+| 1 | 0 |  1  |  0  |   1    |
+| 1 | 1 |  0  |  0  |   1    |
+| 1 | 1 |  1  |  1  |   1    |
+
+---
 
 
 #  Pinout Table
@@ -865,7 +880,7 @@ It produces two outputs:
 
 # Definition
 
-A 2:1 multiplexer (also written as 2-to-1 MUX) is a combinational logic circuit that selects one of two input signals and forwards it to a single output line. The selection is controlled by a single select input (S).
+A 2:1 multiplexer  is a combinational logic circuit that selects one of two input signals and forwards it to a single output line. The selection is controlled by a single select input (S).
 
 ![mux](https://github.com/user-attachments/assets/492e0214-1d65-4a04-bcdf-af0b2a02cbc1)
 ![TT](https://github.com/user-attachments/assets/de95ca91-2fd7-41e7-bc18-1817c72bd742)
@@ -893,12 +908,12 @@ A 2:1 multiplexer (also written as 2-to-1 MUX) is a combinational logic circuit 
 | 17   | All ICs Vcc Pins        | Connected to Breadboard Vcc (+ve)           |
 | 18   | Power Supply (+ve)      | Breadboard Red Rail                         |
 | 19   | Power Supply (-ve)      | Breadboard Black Rail                       |
--------------
+---
 
 ![CC](https://github.com/user-attachments/assets/c287a3e4-a9b1-4622-a13d-d6f1156c3521)
 
  Tinkercad Project Link:
 👉 [View 2:1 MUX](https://www.tinkercad.com/things/fmHQ6zkMW7Y-mux)
-
+-------------------------------------
 
 
