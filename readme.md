@@ -11,9 +11,9 @@
 - [Logic Gates](#Logic-Gates)
 - [Integrated Circuits](#Integrated-Circuits)
 - [Implementation of Logic Gatess](#Logic-Gates)
-- [Implementation of Half Adder](#Implementationof-Halfadder)
-- [Implementation of Full Adder](#Implementationof-FullAdder)
-- [Implementation of 2:1 MUX ](#Implementationof-2:1mux)
+- [Implementationof HalfAdder](#Implementationof-Halfadder)
+- [Implementationof FullAdder](#Implementationof-FullAdder)
+- [Implementationof 2:1MUX ](#Implementationof-2:1mux)
  
 
 ---
