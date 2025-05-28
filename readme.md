@@ -11,8 +11,9 @@
 - [Logic Gates](#Logic-Gates)
 - [Integrated Circuits](#Integrated-Circuits)
 - [Implementation of Logic Gatess](#Logic-Gates)
-- [Half adder](#Half-adder)
-- [Full adder](#Full-adder)
+- [Implementation of Half Adder](#Implementationof-Halfadder)
+- [Implementation of Full Adder](#Implementationof-FullAdder)
+- [Implementation of 2:1 MUX ](Implementationof-2:1mux)
  
 
 ---
@@ -753,6 +754,7 @@ It performs specific functions such as logic operations, amplification, or memor
 Tinkercad Project Link:
 
 👉 [View NOT GATE USING NOR GATE 7402](https://www.tinkercad.com/things/63mjcM1o9Tu-not-using-nor-gate)
+-------------------------------------
 
 ## IMPLEMENTATION OF HALF ADDER
 
@@ -761,10 +763,10 @@ Tinkercad Project Link:
 ![HALF](https://github.com/user-attachments/assets/a8464060-ddbc-4b29-a5fe-d2cd77c10db0)
 
 
-
+Tinkercad Project Link:
 👉 [View HALF ADDER ](https://www.tinkercad.com/things/1tYgP0O8NUE-half-adder)
 
-
+-------------------------------------
 ## IMPLEMENTATION OF FULL ADDER USING NAND GATES
 
 ![download](https://github.com/user-attachments/assets/cce25d29-f0ca-4872-866d-94be0a18afca)   ![truthh](https://github.com/user-attachments/assets/9e0af7bf-192b-4041-a82d-ce45b2196c73)
@@ -774,11 +776,50 @@ Tinkercad Project Link:
 ![CHJ](https://github.com/user-attachments/assets/44d7cbaf-77fc-4298-a591-b7663943c68f)
 
  Tinkercad Project Link:
+
 👉 [View FULL ADDER USING NAND GATE ](https://www.tinkercad.com/things/lDWqEUBlfJB-ful-adder)
 
+-------------------------------------
+## IMPLEMENTATION OF 2:1 MUX
+
+# Definition
+
+A 2:1 multiplexer (also written as 2-to-1 MUX) is a combinational logic circuit that selects one of two input signals and forwards it to a single output line. The selection is controlled by a single select input (S).
+
+![TT](https://github.com/user-attachments/assets/de95ca91-2fd7-41e7-bc18-1817c72bd742)
 
 
 
+![CC](https://github.com/user-attachments/assets/c287a3e4-a9b1-4622-a13d-d6f1156c3521)
+
+
+## Pin-Out Table
+
+| S.No | Pin No (IC/Component)   | Connected To                                |
+|------|-------------------------|---------------------------------------------|
+| 1    | 74HC04 Pin 14 (Vcc)     | +ve Rail (Red)                              |
+| 2    | 74HC04 Pin 7 (GND)      | -ve Rail (Black)                            |
+| 3    | 74HC08 Pin 14 (Vcc)     | +ve Rail (Red)                              |
+| 4    | 74HC08 Pin 7 (GND)      | -ve Rail (Black)                            |
+| 5    | 74HC32 Pin 14 (Vcc)     | +ve Rail (Red)                              |
+| 6    | 74HC32 Pin 7 (GND)      | -ve Rail (Black)                            |
+| 7    | DIP Switch Pin 1        | 74HC04 Pin 1 (Input of NOT Gate)            |
+| 8    | DIP Switch Pin 2        | 74HC08 Pin 1 (Input A of AND Gate)          |
+| 9    | DIP Switch Pin 3        | 74HC08 Pin 2 (Input B of AND Gate)          |
+| 10   | DIP Switch Pin 4        | 74HC32 Pin 5 (Input B of OR Gate)           |
+| 11   | 74HC04 Pin 2 (Output)   | 74HC08 Pin 4 (Input B of second AND Gate)   |
+| 12   | 74HC08 Pin 3 (Output)   | 74HC32 Pin 4 (Input A of OR Gate)           |
+| 13   | 74HC32 Pin 6 (Output)   | LED Anode (Long leg)                        |
+| 14   | LED Cathode (Short leg) | 330Ω Resistor                               |
+| 15   | Resistor                | Ground Rail                                 |
+| 16   | All ICs GND Pins        | Connected to Breadboard GND (-ve)           |
+| 17   | All ICs Vcc Pins        | Connected to Breadboard Vcc (+ve)           |
+| 18   | Power Supply (+ve)      | Breadboard Red Rail                         |
+| 19   | Power Supply (-ve)      | Breadboard Black Rail                       |
+
+
+ Tinkercad Project Link:
+👉 [View 2:1 MUX](https://www.tinkercad.com/things/fmHQ6zkMW7Y-mux)
 
 
 
