@@ -12,8 +12,8 @@
 - [Integrated Circuits](#Integrated-Circuits)
 - [Implementation of Logic Gatess](#Logic-Gates)
 - [Implementation of Half Adder](#Implementation-Of-Half-Adder)
-- [Implementation of Full Adder](#Implementation-of-Full-Adder)
-- [Implementation of 2:1 MUX ](#Implementation-of-2:1-mux)
+- [Implementation of Full Adder using NAND gates](#Implementation-of-Full-Adder-using-NAND-gates)
+- [Implementation of 2:1 MUX ](#Implementation-of-2:1-MUX)
  
 
 ---
