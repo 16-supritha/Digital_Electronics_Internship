@@ -13,7 +13,7 @@
 - [Implementation of Logic Gatess](#Logic-Gates)
 - [Implementation of Half Adder](#Implementation-Of-Half-Adder)
 - [Implementation of Full Adder using NAND gates](#Implementation-of-Full-Adder-using-NAND-gates)
-- [Implementation of 2:1 MUX ](#Implementation-of-2:1-MUX)
+- [Multiplexers](#multiplexers)
  
 
 ---
@@ -131,6 +131,7 @@ E -> = (15×16^0)
 3. Add the results.
 
 **Example:**  1101
+
      = (1 × 2³)  + (1 × 2²) + (0 × 2¹)  + (1 × 2⁰)  
      = 8 + 4 + 0 + 1  
      = **13 (Decimal)**
@@ -757,9 +758,9 @@ Tinkercad Project Link:
 
 -------------------------------------
 
-## IMPLEMENTATION OF HALF ADDER
+#### IMPLEMENTATION OF HALF ADDER
 
-#Definition
+# Definition
 
 A **Half Adder** is a combinational circuit that performs addition of two binary digits. It has two outputs:
 
@@ -789,12 +790,11 @@ A **Half Adder** is a combinational circuit that performs addition of two binary
 | 17   | Power Supply (–)            | Breadboard negative rail                          |
 
 ---
-
 #  NAND Gate Implementation of Half Adder
 
-### **SUM = A ⊕ B = (A NAND (A NAND B)) NAND (B NAND (A NAND B))**
-
-### **CARRY = A · B = (A NAND B)' = A NAND B followed by NAND with itself**
+  SUM = A ⊕ B 
+ 
+ CARRY = A · B 
 
 ---
 ![HALF](https://github.com/user-attachments/assets/a8464060-ddbc-4b29-a5fe-d2cd77c10db0)
@@ -876,14 +876,39 @@ It produces two outputs:
 👉 [View FULL ADDER USING NAND GATE ](https://www.tinkercad.com/things/lDWqEUBlfJB-ful-adder)
 
 -------------------------------------
-## IMPLEMENTATION OF 2:1 MUX
+
+## MULTIPLEXERS
+
+### 1. IMPLEMENTATION OF 2×1 MUX USING IC'S 7404,7408,7432
 
 # Definition
 
-A 2:1 multiplexer  is a combinational logic circuit that selects one of two input signals and forwards it to a single output line. The selection is controlled by a single select input (S).
+A 2×1 multiplexer  is a combinational logic circuit that selects one of two input signals and forwards it to a single output line. The selection is controlled by a single select input (S).
 
 ![mux](https://github.com/user-attachments/assets/492e0214-1d65-4a04-bcdf-af0b2a02cbc1)
-![TT](https://github.com/user-attachments/assets/de95ca91-2fd7-41e7-bc18-1817c72bd742)
+
+## Truth Table
+
+| S | I0 | I1 | Y |
+|---|----|----|---|
+| 0 |  0 |  0 | 0 |
+| 0 |  0 |  1 | 0 |
+| 0 |  1 |  0 | 1 |
+| 0 |  1 |  1 | 1 |
+| 1 |  0 |  0 | 0 |
+| 1 |  0 |  1 | 1 |
+| 1 |  1 |  0 | 0 |
+| 1 |  1 |  1 | 1 |
+---
+##  ICs Used
+
+| IC      | Function                  |
+|---------|---------------------------|
+| 74HC04  | Hex Inverter (NOT)        |
+| 74HC08  | Quad 2-input AND Gates    |
+| 74HC32  | Quad 2-input OR Gates     |
+
+---
 
 ## Pin-Out Table
 
@@ -913,7 +938,116 @@ A 2:1 multiplexer  is a combinational logic circuit that selects one of two inpu
 ![CC](https://github.com/user-attachments/assets/c287a3e4-a9b1-4622-a13d-d6f1156c3521)
 
  Tinkercad Project Link:
-👉 [View 2:1 MUX](https://www.tinkercad.com/things/fmHQ6zkMW7Y-mux)
--------------------------------------
+👉 [View 2×1 MUX](https://www.tinkercad.com/things/fmHQ6zkMW7Y-mux)
 
+##  Advantages
+
+- Very useful for simple data routing
+- Low hardware cost
+- Basic building block in digital circuits
+
+---
+
+##  Disadvantages
+
+- Limited to only two input lines
+- Needs additional gates if implemented from basic logic
+
+---
+
+##  Applications of 2:1 MUX
+
+- Used in data selection in ALUs
+- Control signal routing in digital systems
+- Foundation of larger MUX designs
+
+---
+
+##  Power Supply
+
+- Voltage: 5V DC
+- LED Series Resistor: 220Ω to 330Ω recommended
+
+-------------------------------------
+## 2. IMPLEMENTATION  OF 4×1 MUX USING IC'S 7404,7411,7432
+
+##  What is a 4:1 MUX?
+
+A **4×1 Multiplexer** selects one of four input lines (I0, I1, I2, I3) and forwards it to the output **Y** based on the two selection lines **S0** and **S1**.
+
+## Truth Table
+
+| S1 | S0 | Output (Y) |
+|----|----|------------|
+| 0  | 0  | I0         |
+| 0  | 1  | I1         |
+| 1  | 0  | I2         |
+| 1  | 1  | I3         |
+
+---
+
+##  ICs Used
+
+| IC      | Function                     |
+|---------|------------------------------|
+| 74HC04  | Hex Inverter (NOT)           |
+| 74HC11  | Triple 3-input AND Gates     |
+| 74HC32  | Quad 2-input OR Gates        |
+
+---
+
+##  Pinout and Connections
+
+| Component   | Pins Used | Connected To          | Description                   |
+|------------|-----------|------------------------|-------------------------------|
+| DIP Switch | 1–4       | Inputs I0–I3           | Data inputs                   |
+| DIP Switch | 5–6       | Select lines S0–S1     | Control inputs                |
+| 74HC04     | Vcc, GND  | +5V, GND               | Power                         |
+| 74HC11     | Vcc, GND  | +5V, GND               | Power                         |
+| 74HC32     | Vcc, GND  | +5V, GND               | Power                         |
+| LED        | Anode     | Output from 74HC32     | Shows final output            |
+| LED        | Cathode   | Resistor → GND         | Current limiting              |
+
+---
+
+##  Circuit Diagram
+
+![ff](https://github.com/user-attachments/assets/9816f835-4e50-4d44-b0b9-3141b41a344e)
+
+Tinkercad Project Link:
+👉 [View 4×1 MUX](https://www.tinkercad.com/things/l8WfWQ1Emii-41-mux)
+
+---
+
+##  Advantages
+
+- Simplifies circuit design by routing multiple inputs to a single output.
+- Efficient selection logic using minimal hardware.
+- Can be cascaded to form larger MUX systems.
+
+##  Disadvantages
+
+- Limited input lines (only 4).
+- Requires multiple logic gate ICs.
+- Slight propagation delay due to gate combinations.
+
+---
+
+##  Why We Use a 4:1 MUX?
+
+A 4:1 MUX is a critical component in digital design. It allows selective data transmission, making it essential in:
+
+- ALU operations
+- Data routing
+- Memory selection
+- Signal multiplexing in embedded systems
+
+---
+
+##  Power Supply
+
+- Voltage: 5V DC
+- LED Series Resistor: 220Ω to 330Ω recommended
+
+------------------------------------------------
 
