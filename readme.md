@@ -109,10 +109,9 @@ Example:  145 = (1×8^2) + (4×8^1) + (5×8^0)
 - **Digits**: 0–9 and A–F  
 - **Each position** = power of 16  
 
-Example:  2F 
-2 -> = (2×16^1) + 
-E -> = (15×16^0) 
-= 32 + 15 
+Example: 2F₁₆
+= (2 × 16¹) + (15 × 16⁰)
+= 32 + 15
 = **47 (Decimal)**
 
 ---
@@ -207,13 +206,11 @@ E -> = (15×16^0)
 
     Example:    2F
 
-   2 = (2×16^1)
-   
-     F = (15×16^0)
-   
-    = 32 + 15
-   
-   = **47 (Decimal)**
+  Example: 2F₁₆
+  2 = 0010₂
+  F = 1111₂
+
+**Binary:** 00101111₂
 ---
 
 ### G. Decimal to Octal
@@ -682,18 +679,20 @@ It performs specific functions such as logic operations, amplification, or memor
 |---------|-----------|-----------|---------------------------------------|
 | 1       | A1        | Input     | 1st input of XNOR gate 1              |
 | 2       | B1        | Input     | 2nd input of XNOR gate 1              |
-| 3       | Y1        | Output    | Output of XNOR gate 1 (open collector)|
+| 3       | Y1        | Output    | Output of XNOR gate 1                 |
 | 4       | A2        | Input     | 1st input of XNOR gate 2              |
 | 5       | B2        | Input     | 2nd input of XNOR gate 2              |
-| 6       | Y2        | Output    | Output of XNOR gate 2 (open collector)|
+| 6       | Y2        | Output    | Output of XNOR gate 2                 |
 | 7       | GND       | Power     | Ground (0V)                           |
-| 8       | Y3        | Output    | Output of XNOR gate 3 (open collector)|
+| 8       | Y3        | Output    | Output of XNOR gate 3                 |
 | 9       | A3        | Input     | 1st input of XNOR gate 3              |
 | 10      | B3        | Input     | 2nd input of XNOR gate 3              |
-| 11      | Y4        | Output    | Output of XNOR gate 4 (open collector)|
+| 11      | Y4        | Output    | Output of XNOR gate 4                 |
 | 12      | A4        | Input     | 1st input of XNOR gate 4              |
 | 13      | B4        | Input     | 2nd input of XNOR gate 4              |
 | 14      | Vcc       | Power     | Positive supply voltage (+5V)         |
+
+
 --------------------------------------------------------
 
 ##    IMPLEMENTATION OF LOGIC GATES
@@ -873,7 +872,7 @@ It produces two outputs:
 
 ## MULTIPLEXERS
 
-###            1. IMPLEMENTATION OF 2×1 MUX USING IC'S 7404,7408,7432
+###           1. IMPLEMENTATION OF 2×1 MUX USING IC'S 7404,7408,7432
 
 # Definition
 
@@ -963,6 +962,9 @@ A 2×1 multiplexer  is a combinational logic circuit that selects one of two inp
 ##  What is a 4:1 MUX?
 
 A **4×1 Multiplexer** selects one of four input lines (I0, I1, I2, I3) and forwards it to the output **Y** based on the two selection lines **S0** and **S1**.
+
+![download](https://github.com/user-attachments/assets/83af64c1-1b61-471d-b200-eb034365612a)
+
 
 ## Truth Table
 
