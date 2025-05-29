@@ -99,8 +99,8 @@ Example:  1011₂  = (1 × 2³) + (0 × 2²) + (1 × 2¹) + (1 × 2⁰)
 - **Digits**: 0–7  
 - **Each position** = power of 8  
 
-Example:  145 = (1×8^2) + (4×8^1) + (5×8^0) 
-= 64 + 32 + 5 
+Example: 145₈ = (1 × 8²) + (4 × 8¹) + (5 × 8⁰)
+= 64 + 32 + 5
 = **101 (Decimal)**
 
 ---
@@ -211,6 +211,7 @@ Example: 2F₁₆
   F = 1111₂
 
 **Binary:** 00101111₂
+
 ---
 
 ### G. Decimal to Octal
@@ -278,7 +279,7 @@ Example: 2F₁₆
 - **Octal and Hexadecimal** make it easier for humans to read and write large binary numbers.
 - Using number systems helps in **designing hardware** and **writing software** for digital systems.
  
- ## Logic Gates 
+ ##   LOGIC GATES 
 
 
 ---
@@ -548,9 +549,7 @@ It performs specific functions such as logic operations, amplification, or memor
  
  ### 🔸 NOT Gate using IC 7404  
  
-
- 
-  [Open NOT GATE in Tinkercad](
+👉  [Open NOT GATE in Tinkercad](https://www.tinkercad.com/things/jLl5STNZEIi-not-gate)
  ## Pin Description
 
 | Pin No. | Pin Label | Direction | Function                        |
@@ -695,9 +694,9 @@ It performs specific functions such as logic operations, amplification, or memor
 
 --------------------------------------------------------
 
-##    IMPLEMENTATION OF LOGIC GATES
+###     IMPLEMENTATION OF LOGIC GATES
 
-# IMPLEMENTATION OF AND GATE USING NAND GATE 7400
+ IMPLEMENTATION OF AND GATE USING NAND GATE 7400
 
 ![P](https://github.com/user-attachments/assets/c58d094c-9172-4e0b-bdee-0041170c18cb)
 
@@ -706,7 +705,7 @@ It performs specific functions such as logic operations, amplification, or memor
 👉 [View  AND GATE USING NAND Gate 7400  Project on Tinkercad](https://www.tinkercad.com/things/2ikxvqCHHor-and-with-nand-gate)
 
 -----------------------------------
-# IMPLEMENTATION OF OR GATE  USING NAND GATE 7400
+ IMPLEMENTATION OF OR GATE  USING NAND GATE 7400
 
 ![O](https://github.com/user-attachments/assets/0d4d18b2-0881-46fb-8f07-4f5a5ebe29ad)
 
@@ -716,7 +715,7 @@ It performs specific functions such as logic operations, amplification, or memor
 👉 [View  OR GATE USING NAND GATE 7400 Circuit on Tinkercad](https://www.tinkercad.com/things/2SFUaJOht4N-or-with-nand)
 
 -------------------------------------
-# IMPLEMENTATION OF NOT GATE USING NAND GATE 7400
+ IMPLEMENTATION OF NOT GATE USING NAND GATE 7400
 
 ![N](https://github.com/user-attachments/assets/d093abae-7385-456e-92ef-84764d7887b4)
 
@@ -726,7 +725,7 @@ It performs specific functions such as logic operations, amplification, or memor
 👉 [View NOT GATE USING NAND 7400](https://www.tinkercad.com/things/2cgmEXES55h-not-with-nand)
 
 -----------------------------------------------
-#  IMPLEMENTATION OF AND GATE USING NOR GATE 7402
+  IMPLEMENTATION OF AND GATE USING NOR GATE 7402
 
 ![DF](https://github.com/user-attachments/assets/3f6f6969-11a0-406a-9e87-7721cf2a5627)
 
@@ -736,7 +735,7 @@ It performs specific functions such as logic operations, amplification, or memor
 👉[View AND GATE USING NOR 7402](https://www.tinkercad.com/things/ifEgXWxR8pf-and-using-nor)
  
  -------------------------------------
-#  IMPLEMENTATION OF OR GATE USING NOR GATE 7402
+  IMPLEMENTATION OF OR GATE USING NOR GATE 7402
 
 
 ![fr](https://github.com/user-attachments/assets/df60b860-e837-4a31-8bc2-ea9535d76af7)
@@ -747,7 +746,7 @@ It performs specific functions such as logic operations, amplification, or memor
 
 
 --------------------------------------------
-# IMPLEMENTATION OF NOT GATE USING NOR GATE 7402
+ IMPLEMENTATION OF NOT GATE USING NOR GATE 7402
 
 ![MM](https://github.com/user-attachments/assets/46e4dcfe-b6e8-47f7-b27d-da257d2ea06f)
 
