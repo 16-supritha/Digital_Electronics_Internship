@@ -877,7 +877,7 @@ It produces two outputs:
 
 A 2×1 multiplexer  is a combinational logic circuit that selects one of two input signals and forwards it to a single output line. The selection is controlled by a single select input (S).
 
-![mux](https://github.com/user-attachments/assets/492e0214-1d65-4a04-bcdf-af0b2a02cbc1)
+![circuit_diagram_2-to-1_multiplexer](https://github.com/user-attachments/assets/37f94a3d-bb03-4791-950e-5eceb923e683)
 
 ## Truth Table
 
